@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex entry</title>
+    <!-- Base body font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fan‑made Pokémon font (free for personal use) -->
+    <link
+      href="https://fonts.cdnfonts.com/css/pokemon-solid"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- header goes here -->
+      <h1 class="header-title">Pokédex</h1>
+    </header>
+    <main>
+      <!-- main goes here -->
+      <section class="hero">
+        <img src="./images/250px-0133Eevee.png" width="400px" />
+
+        <h2>Eevee (133)</h2>
+      </section>
+      <section class="info">
+        <article>
+          <h3>Description</h3>
+          <p>
+            Eevee’s unstable genetic makeup allows it to evolve to suit many
+            environments. It is playful, curious, and fiercely loyal to its
+            Trainer.
+          </p>
+        </article>
+        <article class="infobox">
+          <h4>Type</h4>
+          <span class="badge badge-type"><p>◯ Normal</p></span>
+          <h4>Weakness</h4>
+          <span class="badge badge-weakness"><p>Fighting</p></span>
+        </article>
+        <article>
+          <h3>Evolution Chain</h3>
+          <ol class="evolution-list" style="margin-top: 1rem">
+            <li>
+              <img
+                src="./images/250px-0134Vaporeon.png"
+                alt="Vaporeon"
+              />💧<br />Vaporeon
+            </li>
+            <li>
+              <img
+                src="./images/250px-0135Jolteon.png"
+                alt="Jolteon"
+              />⚡<br />Jolteon
+            </li>
+            <li>
+              <img
+                src="./images/250px-0136Flareon.png"
+                alt="Flareon"
+              />🔥<br />Flareon
+            </li>
+          </ol>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <!-- previous Pokémon -->
+      <a class="link-button footer-left" href="ditto-132.html">
+        <img src="./images/250px-0132Ditto.png" alt="Ditto" />
+        ← Go to Ditto&nbsp;#132
+      </a>
+
+      <!-- next Pokémon -->
+      <a class="link-button footer-right" href="vaporeon-134.html">
+        <img src="./images/250px-0134Vaporeon.png" alt="Vaporeon" />
+        Go to Vaporeon&nbsp;#134 →
+      </a>
+    </footer>
+  </body>
+</html>
